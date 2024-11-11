@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/Prueba1_frontend/src/index.scss">
+</head>
+<body>
+    <main>
+        <h1>Calculadora de calorias</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="#">
+                        <h4>Lacteos</h4>
+                        <select name="lacteos" id="lacteos">
+                            <option value="0">Leche</option>
+                            <option value="1">Queso</option>
+                            <option value="2">Yogur</option>
+                            <option value="3">Mantequilla</option>
+                        </select>
+                        <br>
+                        <label for="">Cantidad</label>
+                        <input type="number" id="cantLact" name="cantLact">
+                        <br>
+                        <!----->
+                        <h4>Origen animal</h4>
+                        <select name="animal" id="animal">
+                            <option value="0">Cerdo</option>
+                            <option value="1">Pollo</option>
+                            <option value="2">Res</option>
+                            <option value="3">Pescado</option>
+                            <option value="4">Huevo</option>
+                        </select>
+                        <br>
+                        <label for="">Cantidad</label>
+                        <input type="number" id="cantCarne" name="cantCarne">
+                        <br>
+                        <!----->
+                        <h4>Frutas</h4>
+                        <select name="frutas" id="frutas">
+                            <option value="0">Manzana</option>
+                            <option value="1">Plátano</option>
+                            <option value="2">Naranja</option>
+                            <option value="3">Toronja</option>
+                            <option value="4">Guayaba</option>
+                        </select>
+                        <br>
+                        <label for="">Cantidad</label>
+                        <input type="number" id="cantFrutas" name="cantFrutas">
+                        <br>
+                        <!----->
+                        <h4>Verduras</h4>
+                        <select name="verduras" id="verduras">
+                            <option value="0">Lechuga</option>
+                            <option value="1">Tomate</option>
+                            <option value="2">Pimiento</option>
+                            <option value="3">Cebolla</option>
+                        </select>
+                        <br>
+                        <label for="">Cantidad</label>
+                        <input type="number" id="cantVerduras" name="cantVerduras">
+                        <br>
+                        <!----->
+                        <h4>Cereales</h4>
+                        <br>
+                        <select name="cereales" id="cereales">
+                            <option value="0">Arroz</option>
+                            <option value="1">Pasta</option>
+                            <option value="2">Pan</option>
+                            <option value="3">Cereal</option>
+                        </select>
+                        <br>
+                        <label for="">Cantidad</label>
+                        <input type="number" id="cantCereales" name="cantCereales">
+                        <br>
+                        <!----->
+                        <h4>Legumbres</h4>
+                        <select name="legumbres" id="legumbres">
+                            <option value="0">Frijoles</option>
+                            <option value="1">Lentejas</option>
+                            <option value="2">Garbanzos</option>
+                            <option value="3">Chícharos</option>
+                        </select>
+                        
+                        <label for="">Cantidad</label>
+                        <input type="number" id="cantLegumbres" name="cantLegumbres">
+                        <br>
+                        <!----->
+                        <button type="submit">Calcular</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
